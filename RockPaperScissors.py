@@ -15,7 +15,7 @@ while (player_result == 3 or computer_result == 3) == False:
     elif "scissors" == player_decision:
         print("Player has " + player_decision + "!")
     else: 
-        print("Please enter a valid value!") 
+        print("Please enter a valid value! Valid values are 'paper', 'rock' or 'scissors'")
         quit()
 
     computer_decision = ["paper", "rock", "scissors"] 
